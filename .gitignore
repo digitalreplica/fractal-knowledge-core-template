@@ -1,0 +1,5 @@
+# Ignore .obsidian folder
+.obsidian/
+
+# Ignore system files and folders
+.DS_Store
