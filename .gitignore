@@ -1,5 +1,10 @@
-# Ignore .obsidian folder
+# Explicitly ignore .obsidian folder
 .obsidian/
 
-# Ignore system files and folders
-.DS_Store
+# Ignore all files except templates, private notes, and git-related files
+*
+!_templates/fractal-knowledge-core/
+!.github/
+!me/private/notes/
+!.gitignore
+!LICENSE.txt
